@@ -10,7 +10,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Hello world action step
-        name: 'Hello World'
         id: hello
         description: 'Greet someone and record the time'
         inputs:
