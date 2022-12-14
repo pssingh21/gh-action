@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gh_action_poc_pssingh21"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Peeyush Singh", email="peeyush.singh@mhp.com" },
 ]
