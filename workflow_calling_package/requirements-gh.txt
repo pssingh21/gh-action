@@ -1,1 +1,1 @@
-gh_action_poc_pssingh21@latest
+gh_action_poc_pssingh21
