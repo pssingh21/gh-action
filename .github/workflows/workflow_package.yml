@@ -21,6 +21,6 @@ jobs:
         run: |
           pip install -r ./workflow_calling_package/requirements-gh.txt
           
-      # - name: run file
-      #   run: |
-      #     python3 /opt/app-root/src/_work/_tool/Python/3.11.1/x64/lib/python3.11/site-packages/helloworld_program/hello_world.py
+      - name: run file
+        run: |
+          pythone3 -c 'from gh_action_poc_pssingh21 import sayHello; sayHello()'

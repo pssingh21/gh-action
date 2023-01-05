@@ -2,6 +2,9 @@ import sys
 import datetime
 import os
 
+def sayHello():
+    print('Hello World')
+
 print('Hello ' + sys.argv[1])
 time=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
