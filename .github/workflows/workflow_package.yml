@@ -23,4 +23,4 @@ jobs:
           
       - name: run file
         run: |
-          pythone3 -c 'from gh_action_poc_pssingh21 import sayHello; sayHello()'
+          python3 -c 'from gh_action_poc_pssingh21 import sayHello; sayHello()'
